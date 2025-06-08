@@ -33,10 +33,6 @@ public class Account {
         return deposito;
     }
 
-    public void setDeposito(double deposito) {
-        this.deposito = deposito;
-    }
-
     public void deposito(double valorDeposito) {
         this.deposito += valorDeposito;
     }
